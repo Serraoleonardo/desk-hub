@@ -57,6 +57,22 @@ npm start
 
 No frontend e em `public/chat-cliente.html`, troque `SEU-PROJETO` e `SUA_CHAVE_PUBLICA_SUPABASE` pelos dados do seu projeto Supabase.
 
+## 📁 Estrutura do projeto
+
+```
+desk-hub/
+├── src/App.jsx                  # painel do atendente (React)
+├── public/chat-cliente.html     # chat web do cliente
+├── backend/
+│   ├── server.js                # API Express
+│   ├── routes/whatsapp.js       # webhook e bot de triagem (Evolution API)
+│   ├── routes/ia.js             # sugestão de resposta com Claude
+│   ├── routes/enviarWhatsapp.js # envio de mensagens pelo painel
+│   ├── routes/keepAlive.js      # mantém o serviço ativo
+│   └── Dockerfile
+└── vite.config.js
+```
+
 ## 🗺️ Próximos passos
 
 - Envio de mídia no chat
