@@ -1,5 +1,13 @@
 # 💬 Desk Hub
 
+<p>
+  <img src="https://img.shields.io/badge/React-0d1117?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-0d1117?style=for-the-badge&logo=nodedotjs&logoColor=5FA04E" />
+  <img src="https://img.shields.io/badge/Supabase-0d1117?style=for-the-badge&logo=supabase&logoColor=3FCF8E" />
+  <img src="https://img.shields.io/badge/Claude_API-0d1117?style=for-the-badge&logo=anthropic&logoColor=D97757" />
+  <img src="https://img.shields.io/badge/WhatsApp-0d1117?style=for-the-badge&logo=whatsapp&logoColor=25D366" />
+</p>
+
 Plataforma de atendimento **white-label** que une **chat web** e **WhatsApp** em um único painel, com triagem automática, sugestão de resposta por IA e relatórios de satisfação (NPS).
 
 > Projeto pessoal de portfólio. Os dados, nomes e produtos que aparecem no código são fictícios.
