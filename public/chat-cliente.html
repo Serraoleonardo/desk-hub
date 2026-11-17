@@ -370,7 +370,7 @@ async function iniciarChat() {
 
 function iniciarRealtime() {
   if (!conversaId) return;
-  const wsUrl = `wss://hfyjsbcxfckbezyzibcz.supabase.co/realtime/v1/websocket?apikey=${SUPA_KEY}&vsn=1.0.0`;
+  const wsUrl = `wss://SEU-PROJETO.supabase.co/realtime/v1/websocket?apikey=${SUPA_KEY}&vsn=1.0.0`;
   wsSocket = new WebSocket(wsUrl);
 
   wsSocket.onopen = () => {
