@@ -975,7 +975,7 @@ const supaRealtime = (() => {
   let socket = null;
   let listeners = [];
   const connect = () => {
-    const wsUrl = `wss://hfyjsbcxfckbezyzibcz.supabase.co/realtime/v1/websocket?apikey=${SUPA_KEY}&vsn=1.0.0`;
+    const wsUrl = `wss://SEU-PROJETO.supabase.co/realtime/v1/websocket?apikey=${SUPA_KEY}&vsn=1.0.0`;
     socket = new WebSocket(wsUrl);
     socket.onopen = () => {
       // Inscreve na tabela conversas
