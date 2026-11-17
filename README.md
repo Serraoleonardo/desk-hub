@@ -73,6 +73,13 @@ desk-hub/
 └── vite.config.js
 ```
 
+## 🧠 Decisões técnicas
+
+- **Supabase Realtime** para atualizar o painel e o chat na hora, sem polling
+- **Evolution API** para conectar o WhatsApp, rodando em servidor próprio
+- **Claude Haiku** nas sugestões de resposta: rápido e barato, e o atendente sempre revisa antes de enviar
+- **Configuração white-label no banco**: nome, logo e cores mudam sem precisar de novo deploy
+
 ## 🗺️ Próximos passos
 
 - Envio de mídia no chat
